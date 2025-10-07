@@ -7,8 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "postinstall": "cd ../ieee-frontend && npm install && npm run build"
+    "start": "node server.js"
   },
   "engines": {
     "node": "20.x",
